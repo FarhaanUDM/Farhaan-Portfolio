@@ -47,71 +47,92 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
 
-    <title>Surfooden_Farhaan | E-Portfolio</title>
+    <title>Farhaan_Surfoodeen | E-Portfolio</title>
   </head>
   <body>
     <!-- Main Container Start -->
     <div class="main-container">
-      <div class="main-content">
-        <!-- Header Start -->
-        <div class="header">
-          <div class="logo">
-            <a href="#"><span>F</span>arhaan.</a>
-          </div>
-
-          <div id="menu-icon" class="bx bx-menu">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-
-          <ul class="nav">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#portfolio">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
+      <!-- Aside Start -->
+      <div class="aside">
+        <div class="logo">
+          <a href="#"><span>F</span>arhaan.</a>
         </div>
-        <!-- Header End -->
+        <div class="nav-toggler"><span></span></div>
+        <ul class="nav">
+          <li>
+            <a href="#home" class="active"><i class="fa fa-home"> Home</i></a>
+          </li>
+          <li>
+            <a href="#about"><i class="fa fa-user"> About</i></a>
+          </li>
+          <!-- <li>
+            <a href="#service"><i class="fa fa-cogs"> Services</i></a>
+          </li> -->
+          <li>
+            <a href="#portfolio"><i class="fa fa-briefcase"> Projects</i></a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa fa-comments"> Contact</i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Aside End -->
+      <!-- Main Content Start -->
+      <div class="main-content">
         <!-- Home Section Start -->
-        <section class="home section" id="home">
+        <section class="home active section" id="home">
           <div class="container">
-            <div class="row rowhome">
+            <div class="row">
               <div class="home-info padd-15">
                 <h3 class="hello">
                   Hi, I'm <span class="name"> Surfoodeen Farhaan</span>
                 </h3>
                 <h3 class="my-profession">
-                  <span class="typing">entry-level software engineer</span>
+                  <span class="typing">Software Engineering Fresher</span>
                 </h3>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Doloremque ex temporibus doloribus natus quod eius quaerat,
-                  saepe alias, sequi error hic? Neque dolorum nam tenetur sit
-                  est. Adipisci, officia itaque. Cumque ipsam quo aut, dolor hic
-                  natus aliquid quae optio possimus quos obcaecati, totam
-                  repellat beatae voluptatem repudiandae veniam nihil ratione
-                  quidem fugit voluptatibus! Fugiat repellendus exercitationem
-                  delectus ipsa quaerat?....
+                  Motivated and ambitious software engineering student seeking
+                  an internship or entry-level position to apply and enhance
+                  technical skills in a professional setting. Possesses a solid
+                  foundation in programming fundamentals, problem-solving, and
+                  software development methodologies. Committed to delivering
+                  high-quality solutions and continuously expanding knowledge in
+                  emerging technologies. Excellent team player with strong
+                  communication and collaboration skills, ready to contribute to
+                  innovative projects and make a positive impact on the
+                  organization.
                 </p>
 
-                <div class="row padd-15">
+                <a href="#" class="btn">Download CV</a>
+              </div>
+
+              <div class="home-img padd-15">
+                <img src="/Assets/Images/me.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About Section Start -->
+        <section class="about section" id="about">
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>About Me</h2>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="about-content padd-15">
+                <div class="row">
                   <div class="personal-info padd-15">
-                    <div class="row padd-15">
+                    <div class="row">
                       <div class="info-item padd-15">
                         <p>Birthday : <span>13 feb 1997</span></p>
                       </div>
                       <div class="info-item padd-15">
-                        <p>Age : <span>26</span></p>
+                        <p>Age : <span>27</span></p>
                       </div>
                       <div class="info-item padd-15">
                         <p>Website : <span>www.domain.com</span></p>
@@ -132,143 +153,374 @@
                         <p>Freelance : <span>Available</span></p>
                       </div>
                     </div>
-
-                    <div class="row padd-15">
+                    <div class="row">
                       <div class="buttons padd-15">
-                        <a href="#" class="btn padd-15">Download CV</a>
-                        <a href="#contact" class="btn hire-me">Hire Me</a>
+                        <a
+                          href="#contact"
+                          data-section-index="1"
+                          class="btn hire-me"
+                          >Hire Me</a
+                        >
                       </div>
-
-                      <div class="home-sci padd-15">
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                  </div>
+                  <div class="skills padd-15">
+                    <div class="row">
+                      <div class="skill-item padd-15">
+                        <h5>Object-Oriented Programming</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 70%"></div>
+                          <div class="skill-percent">70%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Web Development</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 55%"></div>
+                          <div class="skill-percent">65%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Networking</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 75%"></div>
+                          <div class="skill-percent">75%</div>
+                        </div>
+                      </div>
+                      <div class="skill-item padd-15">
+                        <h5>Data Science</h5>
+                        <div class="progress">
+                          <div class="progress-in" style="width: 45%"></div>
+                          <div class="skill-percent">45%</div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="home-img padd-15">
-                <img src="/Assets/Images/me.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Home Section End -->
-
-        <!-- About Section Start -->
-        <section class="about section padd-15" id="about">
-          <div class="container padd-15">
-            <div class="row padd-15">
-              <div class="section-title padd-15">
-                <div class="row padd-15">
-                  <h2>About Me</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="row padd-15">
-              <div class="about-content padd-15">
-                <div class="row padd-15">
-                  <div class="education">
+                <div class="row">
+                  <div class="education padd-15">
                     <h3 class="title">Education</h3>
-                    <div class="row padd-15">
+                    <div class="row">
                       <div class="timeline-box padd-15">
                         <div class="timeline shadow-dark">
                           <!-- timeline item-->
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2022 – Present
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Software Engineering
+                              BSc Software Engineering – Degree
                             </h4>
                             <p class="timeline-text">
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Cum, omnis. Unde eum animi
-                              veniam illo ad atque veritatis et earum! In
-                              deserunt quos voluptatibus veniam.
+                              Universite des Mascareignes
                             </p>
+                            <div class="row">
+                              <div class="buttons padd-15">
+                                <a
+                                  href="#contact"
+                                  data-section-index="1"
+                                  class="btn hire-me"
+                                  >View Transcript</a
+                                >
+                              </div>
+                            </div>
                           </div>
 
                           <!-- timeline item-->
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2021 – 2022
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Software Engineering
+                              Cisco Certified Networking Associate - CCNA
                             </h4>
-                            <p class="timeline-text">
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Cum, omnis. Unde eum animi
-                              veniam illo ad atque veritatis et earum! In
-                              deserunt quos voluptatibus veniam.
-                            </p>
+                            <p class="timeline-text">ITN / SRWE / ENSA</p>
+                            <div class="row">
+                              <div class="buttons padd-15">
+                                <a
+                                  href="#contact"
+                                  data-section-index="1"
+                                  class="btn hire-me"
+                                  >View Certificate</a
+                                >
+                              </div>
+                            </div>
                           </div>
 
                           <!-- timeline item-->
                           <div class="timeline-item">
                             <div class="circle-dot"></div>
                             <h3 class="timeline-date">
-                              <i class="fa fa-calendar"></i>2013 - 2015
+                              <i class="fa fa-calendar"></i>2019 – 2021
                             </h3>
                             <h4 class="timeline-title">
-                              Master in Software Engineering
+                              BSc Software Engineering – Diploma
                             </h4>
-                            <p class="timeline-text">
-                              Lorem, ipsum dolor sit amet consectetur
-                              adipisicing elit. Cum, omnis. Unde eum animi
-                              veniam illo ad atque veritatis et earum! In
-                              deserunt quos voluptatibus veniam.
-                            </p>
+                            <p class="timeline-text">University of Mauritius</p>
+                            <div class="row">
+                              <div class="buttons padd-15">
+                                <a
+                                  href="#contact"
+                                  data-section-index="1"
+                                  class="btn hire-me"
+                                  >View Diploma</a
+                                >
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- timeline item-->
+                          <div class="timeline-item">
+                            <div class="circle-dot"></div>
+                            <h3 class="timeline-date">
+                              <i class="fa fa-calendar"></i>2018
+                            </h3>
+                            <h4 class="timeline-title">Cambridge A Level</h4>
+                            <p class="timeline-text">John Kennedy College</p>
+                            <div class="row">
+                              <div class="buttons padd-15">
+                                <a
+                                  href="#contact"
+                                  data-section-index="1"
+                                  class="btn hire-me"
+                                >
+                                  View Result</a
+                                >
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="knowledge">
-                    <h3 class="title">Knowledge</h3>
-                    <div class="row padd-15">
-                      <div class="knowledge-item padd-15">
-                        <h5>CSS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 76%"></div>
-                          <div class="knowledge-percent">76%</div>
-                        </div>
-                      </div>
+                  <div class="experience padd-15">
+                    <h3 class="title">Skills</h3>
+                    <div class="row">
+                      <div class="timeline-box padd-15">
+                        <div class="timeline shadow-dark">
+                          <div class="sub-row">
+                            <h3 class="sub-title">Hard Skills</h3>
+                            <div class="skills-box">
+                              <div class="skills-col">
+                                <div class="skills-box padd-15">
+                                  <div class="technical-bars">
+                                    <div class="bar">
+                                      <div class="info">
+                                        <i
+                                          style="color: #f0db4f"
+                                          class="fa-brands fa-js"
+                                        ></i
+                                        ><span>Javascript</span>
+                                      </div>
+                                      <div class="progress">
+                                        <div
+                                          class="progress-in js"
+                                          style="width: 75%"
+                                        >
+                                          <span></span>
+                                        </div>
+                                        <div class="knowledge-percent">75%</div>
+                                      </div>
+                                    </div>
 
-                      <div class="knowledge-item padd-15">
-                        <h5>Bootstrap</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 91%"></div>
-                          <div class="knowledge-percent">91%</div>
-                        </div>
-                      </div>
+                                    <div class="bar">
+                                      <div class="info">
+                                        <img
+                                          src="Assets\Images\c-sharp.png"
+                                          alt="Icon"
+                                          style="
+                                            width: 25px;
+                                            height: 25px;
+                                            margin-right: 10px;
+                                          "
+                                        />
+                                        <span> C#</span>
+                                      </div>
+                                      <div class="progress">
+                                        <div
+                                          class="progress-in css"
+                                          style="width: 65%"
+                                        >
+                                          <span></span>
+                                        </div>
+                                        <div class="knowledge-percent">65%</div>
+                                      </div>
+                                    </div>
 
-                      <div class="knowledge-item padd-15">
-                        <h5>JS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 86%"></div>
-                          <div class="knowledge-percent">86%</div>
-                        </div>
-                      </div>
+                                    <div class="bar">
+                                      <div class="info">
+                                        <img
+                                          src="Assets\Images\python.png"
+                                          alt="Icon"
+                                          style="
+                                            width: 25px;
+                                            height: 25px;
+                                            margin-right: 10px;
+                                          "
+                                        />
+                                        <span> Python</span>
+                                      </div>
+                                      <div class="progress">
+                                        <div
+                                          class="progress-in css"
+                                          style="width: 60%"
+                                        >
+                                          <span></span>
+                                        </div>
+                                        <div class="knowledge-percent">60%</div>
+                                      </div>
+                                    </div>
 
-                      <div class="knowledge-item padd-15">
-                        <h5>PHP</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 54%"></div>
-                          <div class="knowledge-percent">54%</div>
-                        </div>
-                      </div>
+                                    <div class="bar">
+                                      <div class="info">
+                                        <i
+                                          style="color: #563d7c"
+                                          class="fa-brands fa-bootstrap"
+                                        ></i
+                                        ><span>Bootstrap</span>
+                                      </div>
+                                      <div class="progress">
+                                        <div
+                                          class="progress-in bootstrap"
+                                          style="width: 65%"
+                                        >
+                                          <span></span>
+                                        </div>
+                                        <div class="knowledge-percent">65%</div>
+                                      </div>
+                                    </div>
 
-                      <div class="knowledge-item padd-15">
-                        <h5>HTML</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width: 99%"></div>
-                          <div class="knowledge-percent">99%</div>
+                                    <div class="bar">
+                                      <div class="info">
+                                        <i
+                                          style="color: #61dbfb"
+                                          class="fa-brands fa-react"
+                                        ></i
+                                        ><span>React Js</span>
+                                      </div>
+                                      <div class="progress">
+                                        <div
+                                          class="progress-in react"
+                                          style="width: 70%"
+                                        >
+                                          <span></span>
+                                        </div>
+                                        <div class="knowledge-percent">70%</div>
+                                      </div>
+                                    </div>
+
+                                    <div class="bar">
+                                      <div class="info">
+                                        <img
+                                          src="Assets\Images\Postman.png"
+                                          alt="Icon"
+                                          style="
+                                            width: 25px;
+                                            height: 25px;
+                                            margin-right: 10px;
+                                          "
+                                        />
+                                        <span> Postman</span>
+                                      </div>
+                                      <div class="progress">
+                                        <div
+                                          class="progress-in css"
+                                          style="width: 45%"
+                                        >
+                                          <span></span>
+                                        </div>
+                                        <div class="knowledge-percent">45%</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="sub-row">
+                            <h3 class="sub-title">Soft Skills</h3>
+                            <div class="skills-box">
+                              <div class="radial-bars">
+                                <div class="radial-bar">
+                                  <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle
+                                      class="progress-bar"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                    <circle
+                                      class="path path-1"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                  </svg>
+                                  <div class="percentage">95%</div>
+                                  <div class="text">Flexibility</div>
+                                </div>
+
+                                <div class="radial-bar">
+                                  <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle
+                                      class="progress-bar"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                    <circle
+                                      class="path path-2"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                  </svg>
+                                  <div class="percentage">75%</div>
+                                  <div class="text">Teamwork</div>
+                                </div>
+
+                                <div class="radial-bar">
+                                  <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle
+                                      class="progress-bar"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                    <circle
+                                      class="path path-3"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                  </svg>
+                                  <div class="percentage">50%</div>
+                                  <div class="text">Communication</div>
+                                </div>
+
+                                <div class="radial-bar">
+                                  <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                    <circle
+                                      class="progress-bar"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                    <circle
+                                      class="path path-4"
+                                      cx="100"
+                                      cy="100"
+                                      r="80"
+                                    ></circle>
+                                  </svg>
+                                  <div class="percentage">80%</div>
+                                  <div class="text">Adaptability</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -279,174 +531,6 @@
           </div>
         </section>
         <!-- About Section End -->
-
-        <!-- SKills Section Start -->
-        <section class="skills section" id="skills">
-          <div class="container">
-            <div class="row padd-15">
-              <div class="section-title">
-                <h2>Skills</h2>
-              </div>
-            </div>
-            <div class="row padd-15">
-              <div class="skills-col">
-                <h3 class="title">Technical Skills</h3>
-
-                <div class="skills-box padd-15">
-                  <div class="technical-bars">
-                    <div class="bar">
-                      <div class="info">
-                        <i style="color: #f06529" class="fa-brands fa-html5"></i
-                        ><span>HTML</span>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-in html" style="width: 70%">
-                          <span class="html"></span>
-                        </div>
-                        <div class="knowledge-percent">70%</div>
-                      </div>
-                    </div>
-
-                    <div class="bar">
-                      <div class="info">
-                        <i
-                          style="color: #2965f1"
-                          class="fa-brands fa-css3-alt"
-                        ></i
-                        ><span>CSS</span>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-in css"><span></span></div>
-                        <div class="knowledge-percent">77%</div>
-                      </div>
-                    </div>
-
-                    <div class="bar">
-                      <div class="info">
-                        <i style="color: #f0db4f" class="fa-brands fa-js"></i
-                        ><span>Javascript</span>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-in js"><span></span></div>
-                        <div class="knowledge-percent">99%</div>
-                      </div>
-                    </div>
-
-                    <div class="bar">
-                      <div class="info">
-                        <i
-                          style="color: #563d7c"
-                          class="fa-brands fa-bootstrap"
-                        ></i
-                        ><span>Bootstrap</span>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-in bootstrap"><span></span></div>
-                        <div class="knowledge-percent">99%</div>
-                      </div>
-                    </div>
-
-                    <div class="bar">
-                      <div class="info">
-                        <i style="color: #61dbfb" class="fa-brands fa-react"></i
-                        ><span>React Js</span>
-                      </div>
-                      <div class="progress">
-                        <div class="progress-in react"><span></span></div>
-                        <div class="knowledge-percent">99%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills-col padd-15">
-                <h3 class="title">Professional Skills</h3>
-
-                <div class="skills-box padd-15 radials">
-                  <div class="radial-bars">
-                    <div class="radial-bar">
-                      <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle
-                          class="progress-bar"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                        <circle
-                          class="path path-1"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                      </svg>
-                      <div class="percentage">70%</div>
-                      <div class="text">creavitivty</div>
-                    </div>
-
-                    <div class="radial-bar">
-                      <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle
-                          class="progress-bar"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                        <circle
-                          class="path path-2"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                      </svg>
-                      <div class="percentage">70%</div>
-                      <div class="text">creavitivty</div>
-                    </div>
-
-                    <div class="radial-bar">
-                      <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle
-                          class="progress-bar"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                        <circle
-                          class="path path-3"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                      </svg>
-                      <div class="percentage">70%</div>
-                      <div class="text">creavitivty</div>
-                    </div>
-
-                    <div class="radial-bar">
-                      <svg x="0px" y="0px" viewBox="0 0 200 200">
-                        <circle
-                          class="progress-bar"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                        <circle
-                          class="path path-4"
-                          cx="100"
-                          cy="100"
-                          r="80"
-                        ></circle>
-                      </svg>
-                      <div class="percentage">70%</div>
-                      <div class="text">creavitivty</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Services Section End -->
 
         <!-- Portfolio Section Start -->
         <section class="portfolio section" id="portfolio">
@@ -464,14 +548,10 @@
               <div class="portfolio-item padd-15">
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
-                    <img src="/Assets/Images/portfolio-1.jpg" alt="" />
+                    <img src="/Assets/Images/porfolio-cover-2.png" alt="" />
                     <div class="layer">
-                      <h5>UX/Design</h5>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Hic quidem qui nam quia iusto animi!
-                      </p>
-                      <a href="#"
+                      <h2>E-Portfolio</h2>
+                      <a id="eportfolio-link"
                         ><i class="fa fa-external-link" aria-hidden="true"></i
                       ></a>
                     </div>
@@ -484,14 +564,10 @@
               <div class="portfolio-item padd-15">
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
-                    <img src="/Assets/Images/portfolio-2.jpg" alt="" />
+                    <img src="/Assets/Images/smartHome.png" alt="" />
                     <div class="layer">
-                      <h5>UX/Design</h5>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Hic quidem qui nam quia iusto animi!
-                      </p>
-                      <a href="#"
+                      <h2>E-Commerce Website</h2>
+                      <a id="ecommerce-link"
                         ><i class="fa fa-external-link" aria-hidden="true"></i
                       ></a>
                     </div>
@@ -504,74 +580,10 @@
               <div class="portfolio-item padd-15">
                 <div class="portfolio-item-inner shadow-dark">
                   <div class="portfolio-img">
-                    <img src="/Assets/Images/portfolio-3.jpg" alt="" />
+                    <img src="/Assets/Images/pharma-cover.png" alt="" />
                     <div class="layer">
-                      <h5>UX/Design</h5>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Hic quidem qui nam quia iusto animi!
-                      </p>
-                      <a href="#"
-                        ><i class="fa fa-external-link" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- portfolio item end -->
-
-              <!-- portfolio item start -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="/Assets/Images/portfolio-4.jpg" alt="" />
-                    <div class="layer">
-                      <h5>UX/Design</h5>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Hic quidem qui nam quia iusto animi!
-                      </p>
-                      <a href="#"
-                        ><i class="fa fa-external-link" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- portfolio item end -->
-
-              <!-- portfolio item start -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="/Assets/Images/portfolio-5.jpg" alt="" />
-                    <div class="layer">
-                      <h5>UX/Design</h5>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Hic quidem qui nam quia iusto animi!
-                      </p>
-                      <a href="#"
-                        ><i class="fa fa-external-link" aria-hidden="true"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- portfolio item end -->
-
-              <!-- portfolio item start -->
-              <div class="portfolio-item padd-15">
-                <div class="portfolio-item-inner shadow-dark">
-                  <div class="portfolio-img">
-                    <img src="/Assets/Images/portfolio-6.jpg" alt="" />
-                    <div class="layer">
-                      <h5>UX/Design</h5>
-                      <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Hic quidem qui nam quia iusto animi!
-                      </p>
-                      <a href="#"
+                      <h2>Pharmacy Management System</h2>
+                      <a id="pharmacy-sys-link"
                         ><i class="fa fa-external-link" aria-hidden="true"></i
                       ></a>
                     </div>
